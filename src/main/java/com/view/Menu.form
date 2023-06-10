@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JOptionPane" name="jOptionPane2">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="formKeyPressed"/>
+    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="formKeyTyped"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="readEstudiante" alignment="1" max="32767" attributes="0"/>
+                  <Component id="addEstudiante" alignment="1" max="32767" attributes="0"/>
+                  <Component id="writeEstudiante" alignment="0" max="32767" attributes="0"/>
+                  <Component id="deleteEstudiante" alignment="0" max="32767" attributes="0"/>
+                  <Component id="readEstudiantes" alignment="0" pref="388" max="32767" attributes="0"/>
+                  <Component id="salirMenu" alignment="0" max="32767" attributes="0"/>
+                  <Component id="title" alignment="1" max="32767" attributes="0"/>
+                  <Component id="menu" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="title" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="menu" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="addEstudiante" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="readEstudiante" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="writeEstudiante" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="deleteEstudiante" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="readEstudiantes" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="salirMenu" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="addEstudiante">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1. Ingresar estudiante"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addEstudianteActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="addEstudianteKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="readEstudiante">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2. Buscar estudiante"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="readEstudianteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="writeEstudiante">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3. Modificar estudiante"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="writeEstudianteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteEstudiante">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4. Eliminar Estudiante"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteEstudianteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="readEstudiantes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5. Ver directorio de estudiantes"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="readEstudiantesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="salirMenu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6. Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salirMenuActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="title">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="INSTITUTO LA FLORESTA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="menu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccione tarea a realizar: "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
